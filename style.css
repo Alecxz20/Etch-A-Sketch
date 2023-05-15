@@ -1,0 +1,63 @@
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  border: 2px #323232 solid;
+  margin-top: 32px;
+}
+
+.lilBox {
+  background-color: white;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.color {
+  display: flex;
+  gap: 8px;
+}
+
+.colors-boxes {
+  width: 40px;
+  height: 40px;
+  border: 1px gray solid;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.coral {
+  background-color: lightcoral;
+}
+
+.btn {
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 22px;
+  background-color: #323232;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
